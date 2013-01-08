@@ -1,0 +1,31 @@
+// by Peter Li
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// v1.11 - 11/29/11
+// - Improved performance
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// v1.1 - 11/27/11
+// - Added sound effects
+// - Added intro
+// - Added commands
+// - Instructions and credits outputs from file
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// v1.0 - 11/23/11
+// - Initial Release
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Peter Chao Particle Generator
+
+To generate random particles, click or drag anywhere on the black screen.
+Particles will be generated with a random lifetime, color, size, and speed 
+traveling in a straight line at a randomized angle. A new particle will be
+generated after the previously generated particle 'dies' by reaching its
+'lifetime' reaches 0.
+
+Size may be set by changing the CVAR value in the text field.
+Type 'size' followed by a value from 1 to 9. This will set the range of
+the randomized size of the particle to the value changed. eg) size 9
+
+A 'bloop' sound effect plays after each mouse button release.
+
+Instructions and credits are read from text files and outputted to the
+text area.

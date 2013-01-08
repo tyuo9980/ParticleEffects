@@ -1,0 +1,6 @@
+Drag the mouse to move the
+origin of the particle effects.
+
+To set the size of the particles
+type in 'size' and a number 0<x<10.
+ 
